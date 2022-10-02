@@ -102,34 +102,65 @@ li {
 }
 
 /*=================================
-  Header styling starts here
-=================================*/
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
-/*=================================
   main styling starts here
 =================================*/
 
+.increment-counter {
+  width: 100%;
+  background-color: #8e44ad;
+  color: #fff;
+}
 
+.wrapper { 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.counter-container {
+  margin: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-indent { text-indent: -9999px; }
+.twitter::before { content: '\f099'; }
+.facebook::before { content: '\f09a'; }
+.youtube::before { content: '\f16a'; }
+
+.facebook::before, 
+.twitter::before, 
+.youtube::before {
+  font-family: "FontAwesome";
+  font-size: 52px;
+  float: right;
+  text-indent: 0;
+}
+
+.counter {
+  margin-top: 10px;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
